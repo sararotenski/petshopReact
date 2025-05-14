@@ -1,11 +1,10 @@
-import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import BanhoTosa from './pages/BanhoTosa';
-import HotelResort from './pages/HotelResort';
-import Adestramento from './pages/Adestramento';
-import NavbarMenu from './pages/NavbarMenu';
-import Banner from './components/Banner';
+import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import BanhoTosa from './pages/BanhoTosa'
+import HotelResort from './pages/HotelResort'
+import Adestramento from './pages/Adestramento'
+import NavbarMenu from './pages/NavbarMenu'
 
 function App() {
   return (
@@ -22,12 +21,8 @@ function App() {
           <Route path = "/adestramento" element={ <Adestramento /> }/>
         </Routes>
 
-        <main>
-          <Banner />
-        </main>
-
       </Router>
   );
 }
 
-export default App;
+export default App
