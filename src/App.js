@@ -5,6 +5,7 @@ import BanhoTosa from './pages/BanhoTosa'
 import HotelResort from './pages/HotelResort'
 import Adestramento from './pages/Adestramento'
 import NavbarMenu from './pages/NavbarMenu'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -21,7 +22,12 @@ function App() {
           <Route path = "/adestramento" element={ <Adestramento /> }/>
         </Routes>
 
+        <footer>
+        <Footer />
+      </footer> 
+
       </Router>
+
   );
 }
 
