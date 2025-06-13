@@ -115,3 +115,25 @@ iframe {
   border-radius: 0 10px 10px 0;
   margin: 30px 0;
 }
+
+.bannerPromo {
+  text-transform: uppercase;
+  width: 100%;
+  background-color: #ccc;
+  padding: 30px 0;
+}
+
+.bannerPromo h1 {
+  text-align: center;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px !important;
+  padding: 5px 20px;
+}
+
+button:hover {
+  background-color: #000;
+}
