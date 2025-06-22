@@ -141,10 +141,35 @@ button:hover {
 .photos {
   display: flex;
   padding-bottom: 50px;
+  margin: 5px;
 }
 
 .photos img {
   width: 250px;
   height: 180px;
-  margin: 5px;
+}
+
+.questions {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.accordion-button {
+  border-radius: 4px !important;
+}
+
+.accordion-button:hover {
+  background-color: #535353 !important;
+  color: white;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #535353 !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
 }
